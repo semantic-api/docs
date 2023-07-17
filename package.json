@@ -1,0 +1,23 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-api/access-control": "file:../semantic-api/packages/access-control",
+    "@semantic-api/api": "file:../semantic-api/packages/api",
+    "@semantic-api/server": "file:../semantic-api/packages/server",
+    "@semantic-api/types": "file:../semantic-api/packages/types",
+    "gh-pages": "^5.0.0",
+    "vitepress": "^1.0.0-beta.5"
+  }
+}
