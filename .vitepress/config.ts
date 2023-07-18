@@ -13,7 +13,13 @@ export default defineConfig({
     sidebar: {
       '/guide/': sidebarGuide(),
       '/reference/': sidebarReference()
-    }
+    },
+    socialLinks: [
+      {
+        icon: 'github',
+        link: 'https://github.com/semantic-api/semantic-api'
+      }
+    ]
   }
 })
 
