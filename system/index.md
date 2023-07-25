@@ -1,6 +1,8 @@
 # `@semantic-api/system`
 
-The `@semantic-api/system` package is intended to host algorithms and collections that are essential for the running of a basic API. Those are referred to as system algorithms/collections. They are:
+## Introduction
+
+The `@semantic-api/system` package is intended to host resources that are essential for the running of a basic API. Those are referred to as system resources. They are:
 
 ## Collections
 

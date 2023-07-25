@@ -37,11 +37,10 @@ Defines a `AccessControl` object while providing strong typing.
 ### Example
 
 ```ts
-import { defineAccessControl, baseRoles } from '@semantic-api/access-control'
+import { defineAccessControl } from '@semantic-api/access-control'
 
 export const accessControl = defineAccessControl<Collections, Algorithms>()({
   roles: {
-    ...baseRoles,
     guest: {
       inherit: [
         'unauthenticated',
