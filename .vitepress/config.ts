@@ -7,6 +7,7 @@ export default defineConfig({
 
   lastUpdated: true,
   cleanUrls: true,
+  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: nav(),
