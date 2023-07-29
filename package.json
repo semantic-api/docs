@@ -13,10 +13,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@semantic-api/access-control": "latest",
-    "@semantic-api/api": "latest",
-    "@semantic-api/server": "latest",
-    "@semantic-api/types": "latest",
+    "@semantic-api/access-control": "file:../semantic-api/packages/access-control",
+    "@semantic-api/api": "file:../semantic-api/packages/api",
+    "@semantic-api/server": "file:../semantic-api/packages/server",
+    "@semantic-api/types": "file:../semantic-api/packages/types",
+    "gh-pages": "^5.0.0",
     "vitepress": "^1.0.0-beta.5"
   }
 }

@@ -23,6 +23,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: Checkout semantic-api
+        uses: actions/checkout@v3
+        with:
+          repository: ringeringeraja/semantic-api
       - name: Setup node
         uses: actions/setup-node@v3
         with:
@@ -32,6 +36,8 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: npm ci
+      - name: Place semantic-api under node_modules
+        run: ln -s $(realpath semantic-api/packages) node_modules
       - name: Build with VitePress
         run: npm run build
       - name: Upload artifact
