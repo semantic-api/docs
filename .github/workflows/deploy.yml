@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Place semantic-api under node_modules/\@semantic-api
-        run: ln -s $(realpath semantic-api/packages) node_modules
+        run: ln -s $(realpath semantic-api/packages) node_modules/\@semantic-api
       - name: Build with VitePress
         run: npm run build
       - name: Upload artifact
