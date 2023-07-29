@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install dependencies
         run: npm ci
-      - name: Place semantic-api under node_modules
+      - name: Place semantic-api under node_modules/\@semantic-api
         run: ln -s $(realpath semantic-api/packages) node_modules
       - name: Build with VitePress
         run: npm run build
