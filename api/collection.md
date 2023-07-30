@@ -8,7 +8,7 @@ A collection is a type of resource that holds a [`Description`](/api/description
 
 Collections are declared through a function that returns a `CollectionStructure` object. You may provide an async function. For example:
 
-```ts
+```typescript
 import { defineDescription } from '@semantic-api/api'
 
 const [Pet, description] = defineDescription({
@@ -47,7 +47,7 @@ The following is an example how you extend the `user` collection:
 
 User resources are preferred over system resources...
 
-```ts
+```typescript
 import type { Schema, Context } from '@semantic-api/api'
 import user from '@semantic-api/system/collections/user/index.js'
 

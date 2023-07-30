@@ -30,11 +30,10 @@ function nav() {
     { text: 'Guide', link: '/guide/what-is-semantic-api', activeMatch: '/guide/' },
     {
       text: 'Reference',
-      activeMatch: '^/(api|common|server|system)/',
+      activeMatch: '^/(api|server|system)/',
       items: [
         { text: '@semantic-api/access-control', link: '/access-control/' },
         { text: '@semantic-api/api', link: '/api/' },
-        { text: '@semantic-api/common', link: '/common/' },
         { text: '@semantic-api/server', link: '/server/' },
         { text: '@semantic-api/system', link: '/system/' },
       ]
@@ -48,7 +47,9 @@ function sidebarGuide() {
       text: 'Introduction',
       collapsed: false,
       items: [
-        { text: 'What is Semantic API?', link: '/guide/what-is-semantic-api' }
+        { text: 'What is Semantic API?', link: '/guide/what-is-semantic-api' },
+        { text: 'Getting started', link: '/guide/getting-started' },
+        { text: 'Deploy', link: '/guide/deploy' },
       ]
     }
   ]

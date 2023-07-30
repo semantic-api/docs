@@ -2,6 +2,7 @@
 
 ## Types
 
+- [`ApiConfig`](/api/api-config)
 - [`Description`](/api/description)
 - [`Algorithm`](/api/algorithm)
 - [`Collection`](/api/collection)

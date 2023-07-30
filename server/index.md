@@ -1,19 +1,11 @@
 # `@semantic-api/server`
 
-## Types
-
-- [`ApiConfig`](#api-config)
-
 ## Global API
 
 - [`init`](#init)
 - [`initThenStart`]()
 - [`initWithDatabase`]()
 - [`initWithDatabaseThenStart`]()
-
-## ApiConfig
-
-<<< @/node_modules/@semantic-api/server/src/types.ts#ApiConfig{1}
 
 ## init
 

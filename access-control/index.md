@@ -36,7 +36,7 @@ Defines a `AccessControl` object while providing strong typing.
 
 ### Example
 
-```ts
+```typescript
 import { defineAccessControl } from '@semantic-api/access-control'
 
 export const accessControl = defineAccessControl<Collections, Algorithms>()({
