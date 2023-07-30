@@ -8,7 +8,7 @@ hero:
     actions:
         - theme: brand
           text: Get started
-          link: /guide/what-is-semantic-api
+          link: /guide/getting-started
         - theme: alt
           text: View on Github
           link: https://github.com/semantic-api/semantic-api
